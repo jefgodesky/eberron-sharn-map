@@ -1,0 +1,19 @@
+{
+  "name": "eberron-sharn-map",
+  "version": "1.0.0",
+  "description": "A React app to navigate an SVG map of Sharn.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefgodesky/eberron-sharn-map.git"
+  },
+  "author": "Jason Godesky <jefgodesky@gmail.com>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/jefgodesky/eberron-sharn-map/issues"
+  },
+  "homepage": "https://github.com/jefgodesky/eberron-sharn-map#readme"
+}
