@@ -7,20 +7,56 @@ function App() {
   const Viewer = useRef(null)
   const [tool, setTool] = useState(TOOL_NONE)
   const [value, setValue] = useState(INITIAL_VALUE)
+  const [level, setLevel] = useState('lower')
   const [width, height] = useWindowSize({ initialWidth: 700, initialHeight: 800 })
 
   useEffect(() => {
     Viewer.current.fitToViewer()
   }, [])
 
+  const classes = [level]
+
   return (
     <div id='app'>
+      <div className='controls'>
+        <h2>Show Level</h2>
+        <ul>
+          <li>
+            <input
+              id='level-lower'
+              type='radio'
+              name='level'
+              onChange={() => setLevel('lower')}
+              defaultChecked={level === 'lower'} />
+            <label htmlFor='level-lower'>Lower Wards</label>
+          </li>
+          <li>
+            <input
+              id='level-middle'
+              type='radio'
+              name='level'
+              onChange={() => setLevel('middle')}
+              defaultChecked={level === 'middle'} />
+            <label htmlFor='level-middle'>Middle Wards</label>
+          </li>
+          <li>
+            <input
+              id='level-upper'
+              type='radio'
+              name='level'
+              onChange={() => setLevel('upper')}
+              defaultChecked={level === 'upper'} />
+            <label htmlFor='level-upper'>Upper Wards</label>
+          </li>
+        </ul>
+      </div>
       <ReactSVGPanZoom
         ref={Viewer}
         tool={tool}
         onChangeTool={setTool}
         value={value}
         onChangeValue={setValue}
+        className={classes.join(' ')}
         width={width}
         height={height}>
         <svg height={800} width={700}>
