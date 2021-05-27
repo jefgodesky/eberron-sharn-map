@@ -327,7 +327,7 @@ svg .district.upper {
   z-index: 10;
 }
 
-.controls h2:first-child {
+.controls > h2:first-child {
   margin-top: 0;
 }
 

@@ -12,6 +12,17 @@ function getQueryParam (key) {
   return getQuery().get(key)
 }
 
+function renderFocusedTowerName (name) {
+  if (!name) return null
+  const slug = name.replaceAll("'", '%27').replaceAll(' ', '_')
+  const url = `https://dragonbetween.net/wiki/${slug}`
+  return (
+    <div>
+      <p><strong>Highlighted:</strong> <a href={url} target='_blank'>{name}</a></p>
+    </div>
+  )
+}
+
 function App() {
   const initLevel = getQueryParam('level') || 'lower'
   const initValue = getQueryParam('value') || INITIAL_VALUE
@@ -62,6 +73,7 @@ function App() {
             <label htmlFor='level-upper'>Upper Wards</label>
           </li>
         </ul>
+        {renderFocusedTowerName(focusedTower)}
       </div>
       <ReactSVGPanZoom
         ref={Viewer}
