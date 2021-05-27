@@ -3,11 +3,22 @@ import { ReactSVGPanZoom, INITIAL_VALUE, TOOL_NONE } from 'react-svg-pan-zoom'
 import { useWindowSize } from '@react-hook/window-size'
 import './App.css'
 
+function getQuery () {
+  if (typeof window === 'undefined') return new URLSearchParams()
+  return new URLSearchParams(window.location.search)
+}
+
+function getQueryParam (key) {
+  return getQuery().get(key)
+}
+
 function App() {
+  const initLevel = getQueryParam('level') || 'lower'
+  const initValue = getQueryParam('value') || INITIAL_VALUE
   const Viewer = useRef(null)
   const [tool, setTool] = useState(TOOL_NONE)
-  const [value, setValue] = useState(INITIAL_VALUE)
-  const [level, setLevel] = useState('lower')
+  const [value, setValue] = useState(initValue)
+  const [level, setLevel] = useState(initLevel)
   const [width, height] = useWindowSize({ initialWidth: 700, initialHeight: 800 })
 
   useEffect(() => {
