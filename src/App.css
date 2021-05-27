@@ -336,3 +336,7 @@ svg .district.upper {
   margin: 0;
   padding: 0;
 }
+
+.tower.focus {
+  fill: #da9100;
+}
