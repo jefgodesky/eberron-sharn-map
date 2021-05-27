@@ -1,4 +1,4 @@
-import {useRef, useState, useEffect} from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { ReactSVGPanZoom, INITIAL_VALUE, TOOL_NONE } from 'react-svg-pan-zoom'
 import { useWindowSize } from '@react-hook/window-size'
 import './App.css'
@@ -1213,7 +1213,7 @@ function App() {
             <circle className="middle" cx="337.81058" cy="414.19278" r="20"/>
             <circle className="upper" cx="337.81058" cy="414.19278" r="15"/>
           </g>
-          <g data-name="Dalannan Tower" className="tower menthis center-bridge everbright university">
+          <g data-name="Dalannan Tower" className={`tower menthis center-bridge everbright university${focusedTower === "Dalannan Tower" ? ' focus' : ''}`} onClick={() => setFocusedTower("Dalannan Tower")}>
             <circle className="lower" cx="378.815" cy="628.80896" r="25"/>
             <circle className="middle" cx="378.815" cy="628.80896" r="20"/>
             <path className="upper"
