@@ -1,15 +1,5 @@
 import LevelControl from './LevelControl'
-
-function renderFocusedTowerName (name) {
-  if (!name) return null
-  const slug = name.replaceAll("'", '%27').replaceAll(' ', '_')
-  const url = `https://dragonbetween.net/wiki/${slug}`
-  return (
-    <div>
-      <p><strong>Highlighted:</strong> <a href={url} target='_blank' rel='noreferrer'>{name}</a></p>
-    </div>
-  )
-}
+import FocusedTower from './FocusedTower'
 
 function Controls (props) {
   return (
@@ -20,7 +10,7 @@ function Controls (props) {
         <LevelControl code='middle' label='Middle City' curr={props.level} setLevel={props.setLevel} />
         <LevelControl code='upper' label='Upper City' curr={props.level} setLevel={props.setLevel} />
       </ul>
-      {renderFocusedTowerName(props.focusedTower)}
+      <FocusedTower tower={props.focusedTower} />
     </div>
   )
 }
