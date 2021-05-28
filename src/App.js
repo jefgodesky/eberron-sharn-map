@@ -18,7 +18,7 @@ function renderFocusedTowerName (name) {
   const url = `https://dragonbetween.net/wiki/${slug}`
   return (
     <div>
-      <p><strong>Highlighted:</strong> <a href={url} target='_blank'>{name}</a></p>
+      <p><strong>Highlighted:</strong> <a href={url} target='_blank' rel='noreferrer'>{name}</a></p>
     </div>
   )
 }
