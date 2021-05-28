@@ -1504,7 +1504,7 @@
     <circle class="upper" cx="337.81058" cy="414.19278" r="15" />
   </g>
   <!-- Towers / Central Plateau / [ Myshan Gardens / Ambassador Towers / Korranath ] -->
-  <g id="World Tower" class="tower central myshan-gardens ambassador-towers korranath">
+  <g id="Andith Tower" class="tower central myshan-gardens ambassador-towers korranath">
     <circle class="lower" cx="337.81058" cy="414.19278" r="25" />
     <circle class="middle" cx="337.81058" cy="414.19278" r="20" />
     <circle class="upper" cx="337.81058" cy="414.19278" r="15" />
@@ -1566,7 +1566,7 @@
     <circle class="middle" cx="337.81058" cy="414.19278" r="20" />
     <circle class="upper" cx="337.81058" cy="414.19278" r="15" />
   </g>
-  <g data-name="Starn Tower" class="tower central olladras-kitchen sword-point skysedge-park" transform="matrix(0.32,0,0,0.32,274.08556,363.96242)">
+  <g data-name="Kavay Tower" class="tower central olladras-kitchen sword-point skysedge-park" transform="matrix(0.32,0,0,0.32,274.08556,363.96242)">
     <circle class="lower" cx="337.81058" cy="414.19278" r="25" />
     <circle class="middle" cx="337.81058" cy="414.19278" r="20" />
     <circle class="upper" cx="337.81058" cy="414.19278" r="15" />

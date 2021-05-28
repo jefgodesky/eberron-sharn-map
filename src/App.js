@@ -1389,7 +1389,7 @@ function App() {
             <circle className="middle" cx="337.81058" cy="414.19278" r="20"/>
             <circle className="upper" cx="337.81058" cy="414.19278" r="15"/>
           </g>
-          <g id="World Tower" className="tower central myshan-gardens ambassador-towers korranath">
+          <g data-name="Andith Tower" className={`tower central myshan-gardens ambassador-towers korranath${focusedTower === "Andith Tower" ? ' focus' : ''}`} onClick={() => setFocusedTower("Andith Tower")}>
             <circle className="lower" cx="337.81058" cy="414.19278" r="25"/>
             <circle className="middle" cx="337.81058" cy="414.19278" r="20"/>
             <circle className="upper" cx="337.81058" cy="414.19278" r="15"/>
@@ -1449,7 +1449,7 @@ function App() {
             <circle className="middle" cx="337.81058" cy="414.19278" r="20"/>
             <circle className="upper" cx="337.81058" cy="414.19278" r="15"/>
           </g>
-          <g data-name="Starn Tower" className={`tower central olladras-kitchen sword-point skysedge-park${focusedTower === "Starn Tower" ? ' focus' : ''}`} transform="matrix(0.32,0,0,0.32,274.08556,363.96242)" onClick={() => setFocusedTower("Starn Tower")}>
+          <g data-name="Kavay Tower" className={`tower central olladras-kitchen sword-point skysedge-park${focusedTower === "Kavay Tower" ? ' focus' : ''}`} transform="matrix(0.32,0,0,0.32,274.08556,363.96242)" onClick={() => setFocusedTower("Kavay Tower")}>
             <circle className="lower" cx="337.81058" cy="414.19278" r="25"/>
             <circle className="middle" cx="337.81058" cy="414.19278" r="20"/>
             <circle className="upper" cx="337.81058" cy="414.19278" r="15"/>
