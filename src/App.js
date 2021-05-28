@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from 'react'
 import { ReactSVGPanZoom, INITIAL_VALUE, TOOL_NONE } from 'react-svg-pan-zoom'
 import { useWindowSize } from '@react-hook/window-size'
+import Controls from './Controls'
 import './App.css'
 
 function getQuery () {
@@ -10,17 +11,6 @@ function getQuery () {
 
 function getQueryParam (key) {
   return getQuery().get(key)
-}
-
-function renderFocusedTowerName (name) {
-  if (!name) return null
-  const slug = name.replaceAll("'", '%27').replaceAll(' ', '_')
-  const url = `https://dragonbetween.net/wiki/${slug}`
-  return (
-    <div>
-      <p><strong>Highlighted:</strong> <a href={url} target='_blank' rel='noreferrer'>{name}</a></p>
-    </div>
-  )
 }
 
 function App() {
@@ -42,39 +32,7 @@ function App() {
 
   return (
     <div id='app'>
-      <div className='controls'>
-        <h2>Show Level</h2>
-        <ul>
-          <li>
-            <input
-              id='level-lower'
-              type='radio'
-              name='level'
-              onChange={() => setLevel('lower')}
-              defaultChecked={level === 'lower'} />
-            <label htmlFor='level-lower'>Lower Wards</label>
-          </li>
-          <li>
-            <input
-              id='level-middle'
-              type='radio'
-              name='level'
-              onChange={() => setLevel('middle')}
-              defaultChecked={level === 'middle'} />
-            <label htmlFor='level-middle'>Middle Wards</label>
-          </li>
-          <li>
-            <input
-              id='level-upper'
-              type='radio'
-              name='level'
-              onChange={() => setLevel('upper')}
-              defaultChecked={level === 'upper'} />
-            <label htmlFor='level-upper'>Upper Wards</label>
-          </li>
-        </ul>
-        {renderFocusedTowerName(focusedTower)}
-      </div>
+      <Controls level={level} setLevel={setLevel} focusedTower={focusedTower} />
       <ReactSVGPanZoom
         ref={Viewer}
         tool={tool}
