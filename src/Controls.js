@@ -1,5 +1,6 @@
 import LevelControl from './LevelControl'
 import FocusedTower from './FocusedTower'
+import ShowArea from './ShowArea'
 
 function Controls (props) {
   return (
@@ -11,6 +12,7 @@ function Controls (props) {
         <LevelControl code='upper' label='Upper City' curr={props.level} setLevel={props.setLevel} />
       </ul>
       <FocusedTower tower={props.focusedTower} />
+      <ShowArea area={props.area} setArea={props.setArea} />
     </div>
   )
 }

@@ -13,15 +13,21 @@ function getQueryParam (key) {
   return getQuery().get(key)
 }
 
+function slugify (str) {
+  return str.replace(' ', '-').replace("'", '').toLowerCase()
+}
+
 function App() {
   const initLevel = getQueryParam('level') || 'lower'
   const initValue = getQueryParam('value') || INITIAL_VALUE
   const initFocusedTower = getQueryParam('tower') || null
+  const initArea = getQueryParam('area') || null
   const Viewer = useRef(null)
   const [tool, setTool] = useState(TOOL_NONE)
   const [value, setValue] = useState(initValue)
   const [level, setLevel] = useState(initLevel)
   const [focusedTower, setFocusedTower] = useState(initFocusedTower)
+  const [area, setArea] = useState(initArea)
   const [width, height] = useWindowSize({ initialWidth: 700, initialHeight: 800 })
 
   useEffect(() => {
@@ -29,10 +35,11 @@ function App() {
   }, [])
 
   const classes = [level]
+  if (area && area.length > 0) classes.push(slugify(area))
 
   return (
     <div id='app'>
-      <Controls level={level} setLevel={setLevel} focusedTower={focusedTower} />
+      <Controls level={level} setLevel={setLevel} focusedTower={focusedTower} area={area} setArea={setArea} />
       <ReactSVGPanZoom
         ref={Viewer}
         tool={tool}

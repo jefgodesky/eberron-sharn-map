@@ -338,5 +338,5 @@ svg .district.upper {
 }
 
 .tower.focus {
-  fill: #da9100;
+  fill: #da9100 !important;
 }

@@ -1,0 +1,773 @@
+{
+  "quarters": [
+    "Central Plateau",
+    "Menthis Plateau",
+    "Northedge",
+    "Tavick's Landing",
+    "Dura"
+  ],
+  "wards": [
+    {
+      "name": "Upper Central",
+      "quarter": "Central Plateau",
+      "level": "upper"
+    },
+    {
+      "name": "Middle Central",
+      "quarter": "Central Plateau",
+      "level": "middle"
+    },
+    {
+      "name": "Lower Central",
+      "quarter": "Central Plateau",
+      "level": "lower"
+    },
+    {
+      "name": "Upper Northedge",
+      "quarter": "Northedge",
+      "level": "upper"
+    },
+    {
+      "name": "Middle Northedge",
+      "quarter": "Northedge",
+      "level": "middle"
+    },
+    {
+      "name": "Lower Northedge",
+      "quarter": "Northedge",
+      "level": "lower"
+    },
+    {
+      "name": "Upper Tavick's Landing",
+      "quarter": "Tavick's Landing",
+      "level": "upper"
+    },
+    {
+      "name": "Middle Tavick's Landing",
+      "quarter": "Tavick's Landing",
+      "level": "middle"
+    },
+    {
+      "name": "Lower Tavick's Landing",
+      "quarter": "Tavick's Landing",
+      "level": "lower"
+    },
+    {
+      "name": "Upper Dura",
+      "quarter": "Dura",
+      "level": "upper"
+    },
+    {
+      "name": "Middle Dura",
+      "quarter": "Dura",
+      "level": "middle"
+    },
+    {
+      "name": "Lower Dura",
+      "quarter": "Dura",
+      "level": "lower"
+    }
+  ],
+  "districts": [
+    {
+      "name": "Highest Towers",
+      "quarter": "Central Plateau",
+      "ward": "Upper Central",
+      "level": "upper",
+      "type": "Civic district",
+      "wealth": "Aristocratic"
+    },
+    {
+      "name": "Korranath",
+      "quarter": "Central Plateau",
+      "ward": "Upper Central",
+      "level": "upper",
+      "type": "Finance district",
+      "wealth": "Aristocratic"
+    },
+    {
+      "name": "Korran-Thiven",
+      "quarter": "Central Plateau",
+      "ward": "Upper Central",
+      "level": "upper",
+      "type": "Finance district",
+      "wealth": "Aristocratic"
+    },
+    {
+      "name": "Mithral Tower",
+      "quarter": "Central Plateau",
+      "ward": "Upper Central",
+      "level": "upper",
+      "type": "Wealthy residential district",
+      "wealth": "Aristocratic"
+    },
+    {
+      "name": "Platinum Heights",
+      "quarter": "Central Plateau",
+      "ward": "Upper Central",
+      "level": "upper",
+      "type": "Fine shopping district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Skysedge Park",
+      "quarter": "Central Plateau",
+      "ward": "Upper Central",
+      "level": "upper",
+      "type": "Park district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Ambassador Towers",
+      "quarter": "Central Plateau",
+      "ward": "Middle Central",
+      "level": "middle",
+      "type": "Embassy district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Dava Gate",
+      "quarter": "Central Plateau",
+      "ward": "Middle Central",
+      "level": "middle",
+      "type": "Professional district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Dragon Towers",
+      "quarter": "Central Plateau",
+      "ward": "Middle Central",
+      "level": "middle",
+      "type": "Guildhall district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Sovereign Towers",
+      "quarter": "Central Plateau",
+      "ward": "Middle Central",
+      "level": "middle",
+      "type": "Temple district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Sword Point",
+      "quarter": "Central Plateau",
+      "ward": "Middle Central",
+      "level": "middle",
+      "type": "Garrison district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Tradefair",
+      "quarter": "Central Plateau",
+      "ward": "Middle Central",
+      "level": "middle",
+      "type": "Marketplace district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Boldrei's Hearth",
+      "quarter": "Central Plateau",
+      "ward": "Lower Central",
+      "level": "lower",
+      "type": "Inn district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Granite Halls",
+      "quarter": "Central Plateau",
+      "ward": "Lower Central",
+      "level": "lower",
+      "type": "Shopping district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Myshan Gardens",
+      "quarter": "Central Plateau",
+      "ward": "Lower Central",
+      "level": "lower",
+      "type": "Average residential district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "North Towers",
+      "quarter": "Central Plateau",
+      "ward": "Lower Central",
+      "level": "lower",
+      "type": "Shopping district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Olladra's Kitchen",
+      "quarter": "Central Plateau",
+      "ward": "Lower Central",
+      "level": "lower",
+      "type": "Tavern district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Vallia Towers",
+      "quarter": "Central Plateau",
+      "ward": "Lower Central",
+      "level": "lower",
+      "type": "Average residential district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Clifftop",
+      "quarter": "Dura",
+      "ward": "Upper Dura",
+      "level": "upper",
+      "type": "Adventurers' district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Daggerwatch",
+      "quarter": "Dura",
+      "ward": "Upper Dura",
+      "level": "upper",
+      "type": "Garrison district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Highhold",
+      "quarter": "Dura",
+      "ward": "Upper Dura",
+      "level": "upper",
+      "type": "Dwarven district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Highwater",
+      "quarter": "Dura",
+      "ward": "Upper Dura",
+      "level": "upper",
+      "type": "Average residential district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Hope’s Peak",
+      "quarter": "Dura",
+      "ward": "Upper Dura",
+      "level": "upper",
+      "type": "Temple district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Overlook",
+      "quarter": "Dura",
+      "ward": "Upper Dura",
+      "level": "upper",
+      "type": "Average residential district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Redstone",
+      "quarter": "Dura",
+      "ward": "Upper Dura",
+      "level": "upper",
+      "type": "Shopping district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "The Bazaar",
+      "quarter": "Dura",
+      "ward": "Middle Dura",
+      "level": "middle",
+      "type": "Marketplace district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Broken Arch",
+      "quarter": "Dura",
+      "ward": "Middle Dura",
+      "level": "middle",
+      "type": "Average residential district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Hareth's Folly",
+      "quarter": "Dura",
+      "ward": "Middle Dura",
+      "level": "middle",
+      "type": "Tavern district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Rattlestone",
+      "quarter": "Dura",
+      "ward": "Middle Dura",
+      "level": "middle",
+      "type": "Tenement district",
+      "wealth": "Squalid"
+    },
+    {
+      "name": "Stormhold",
+      "quarter": "Dura",
+      "ward": "Middle Dura",
+      "level": "middle",
+      "type": "Average residential district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Tumbledown",
+      "quarter": "Dura",
+      "ward": "Middle Dura",
+      "level": "middle",
+      "type": "Tenement district",
+      "wealth": "Squalid"
+    },
+    {
+      "name": "Underlook",
+      "quarter": "Dura",
+      "ward": "Middle Dura",
+      "level": "middle",
+      "type": "Inn district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Callestan",
+      "quarter": "Dura",
+      "ward": "Lower Dura",
+      "level": "lower",
+      "type": "Inn district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Fallen",
+      "quarter": "Dura",
+      "ward": "Lower Dura",
+      "level": "lower",
+      "type": "Slum district",
+      "wealth": "Wretched"
+    },
+    {
+      "name": "Gate of Gold",
+      "quarter": "Dura",
+      "ward": "Lower Dura",
+      "level": "lower",
+      "type": "Tenement district",
+      "wealth": "Squalid"
+    },
+    {
+      "name": "Malleon’s Gate",
+      "quarter": "Dura",
+      "ward": "Lower Dura",
+      "level": "lower",
+      "type": "Slum district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Oldkeep",
+      "quarter": "Dura",
+      "ward": "Lower Dura",
+      "level": "lower",
+      "type": "Poor residential district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Precarious",
+      "quarter": "Dura",
+      "ward": "Lower Dura",
+      "level": "lower",
+      "type": "Warehouse district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "The Stores",
+      "quarter": "Dura",
+      "ward": "Lower Dura",
+      "level": "lower",
+      "type": "Warehouse district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Den'iyas",
+      "quarter": "Menthis Plateau",
+      "ward": "Upper Menthis",
+      "level": "upper",
+      "type": "Gnome district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Ivy Towers",
+      "quarter": "Menthis Plateau",
+      "ward": "Upper Menthis",
+      "level": "upper",
+      "type": "Average residential district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Seventh Tower",
+      "quarter": "Menthis Plateau",
+      "ward": "Upper Menthis",
+      "level": "upper",
+      "type": "Fine shopping district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Platinate",
+      "quarter": "Menthis Plateau",
+      "ward": "Upper Menthis",
+      "level": "upper",
+      "type": "Wealthy residential district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "University",
+      "quarter": "Menthis Plateau",
+      "ward": "Upper Menthis",
+      "level": "upper",
+      "type": "University district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Cassan Bridge",
+      "quarter": "Menthis Plateau",
+      "ward": "Middle Menthis",
+      "level": "middle",
+      "type": "Shopping district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Everbright",
+      "quarter": "Menthis Plateau",
+      "ward": "Middle Menthis",
+      "level": "middle",
+      "type": "Magic district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Little Plains",
+      "quarter": "Menthis Plateau",
+      "ward": "Middle Menthis",
+      "level": "middle",
+      "type": "Halfling district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Smoky Towers",
+      "quarter": "Menthis Plateau",
+      "ward": "Middle Menthis",
+      "level": "middle",
+      "type": "Theater district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Warden Towers",
+      "quarter": "Menthis Plateau",
+      "ward": "Middle Menthis",
+      "level": "middle",
+      "type": "Garrison district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Center Bridge",
+      "quarter": "Menthis Plateau",
+      "ward": "Lower Menthis",
+      "level": "lower",
+      "type": "Average residential district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Downstairs",
+      "quarter": "Menthis Plateau",
+      "ward": "Lower Menthis",
+      "level": "lower",
+      "type": "Tavern district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Firelight",
+      "quarter": "Menthis Plateau",
+      "ward": "Lower Menthis",
+      "level": "lower",
+      "type": "Red light district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Forgelight Towers",
+      "quarter": "Menthis Plateau",
+      "ward": "Lower Menthis",
+      "level": "lower",
+      "type": "Average residential district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Torchfire",
+      "quarter": "Menthis Plateau",
+      "ward": "Lower Menthis",
+      "level": "lower",
+      "type": "Theater district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Crystal Bridge",
+      "quarter": "Northedge",
+      "ward": "Upper Northedge",
+      "level": "upper",
+      "type": "Wealthy residential district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Oak Towers",
+      "quarter": "Northedge",
+      "ward": "Upper Northedge",
+      "level": "upper",
+      "type": "Wealthy residential district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Shae Lias",
+      "quarter": "Northedge",
+      "ward": "Upper Northedge",
+      "level": "upper",
+      "type": "Elven district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "High Hope",
+      "quarter": "Northedge",
+      "ward": "Middle Northedge",
+      "level": "middle",
+      "type": "Temple district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Holdfast",
+      "quarter": "Northedge",
+      "ward": "Middle Northedge",
+      "level": "middle",
+      "type": "Dwarven district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Oakbridge",
+      "quarter": "Northedge",
+      "ward": "Middle Northedge",
+      "level": "middle",
+      "type": "Average residential district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Longstairs",
+      "quarter": "Northedge",
+      "ward": "Lower Northedge",
+      "level": "lower",
+      "type": "Poor residential district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "North Market",
+      "quarter": "Northedge",
+      "ward": "Lower Northedge",
+      "level": "lower",
+      "type": "Marketplace district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Stoneyard",
+      "quarter": "Northedge",
+      "ward": "Lower Northedge",
+      "level": "lower",
+      "type": "Poor residential district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Copper Arch",
+      "quarter": "Tavick's Landing",
+      "ward": "Upper Tavick's Landing",
+      "level": "upper",
+      "type": "Professional district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Dalan's Refuge",
+      "quarter": "Tavick's Landing",
+      "ward": "Upper Tavick's Landing",
+      "level": "upper",
+      "type": "Wealthy residential district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Ocean View",
+      "quarter": "Tavick's Landing",
+      "ward": "Upper Tavick's Landing",
+      "level": "upper",
+      "type": "Wealthy residential district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Pinnacle",
+      "quarter": "Tavick's Landing",
+      "ward": "Upper Tavick's Landing",
+      "level": "upper",
+      "type": "Temple district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Silvergate",
+      "quarter": "Tavick's Landing",
+      "ward": "Upper Tavick's Landing",
+      "level": "upper",
+      "type": "Fine shopping district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Sunrise",
+      "quarter": "Tavick's Landing",
+      "ward": "Upper Tavick's Landing",
+      "level": "upper",
+      "type": "Average residential district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Twelve Pillars",
+      "quarter": "Tavick's Landing",
+      "ward": "Upper Tavick's Landing",
+      "level": "upper",
+      "type": "Professional district",
+      "wealth": "Wealthy"
+    },
+    {
+      "name": "Cornerstone",
+      "quarter": "Tavick's Landing",
+      "ward": "Middle Tavick's Landing",
+      "level": "middle",
+      "type": "Tavern district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Dancing Shadows",
+      "quarter": "Tavick's Landing",
+      "ward": "Middle Tavick's Landing",
+      "level": "middle",
+      "type": "Inn district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Deathsgate",
+      "quarter": "Tavick's Landing",
+      "ward": "Middle Tavick's Landing",
+      "level": "middle",
+      "type": "Adventurers' district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Graywall",
+      "quarter": "Tavick's Landing",
+      "ward": "Middle Tavick's Landing",
+      "level": "middle",
+      "type": "Average residential district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Kenton",
+      "quarter": "Tavick's Landing",
+      "ward": "Middle Tavick's Landing",
+      "level": "middle",
+      "type": "Poor residential district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Little Barrington",
+      "quarter": "Tavick's Landing",
+      "ward": "Middle Tavick's Landing",
+      "level": "middle",
+      "type": "Average residential district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Tavick's Market",
+      "quarter": "Tavick's Landing",
+      "ward": "Middle Tavick's Landing",
+      "level": "middle",
+      "type": "Marketplace district",
+      "wealth": "Comfortable"
+    },
+    {
+      "name": "Black Arch",
+      "quarter": "Tavick's Landing",
+      "ward": "Lower Tavick's Landing",
+      "level": "lower",
+      "type": "Garrison district",
+      "wealth": "Modest"
+    },
+    {
+      "name": "Cogsgate",
+      "quarter": "Tavick's Landing",
+      "ward": "Lower Tavick's Landing",
+      "level": "lower",
+      "type": "Warehouse district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Dragoneyes",
+      "quarter": "Tavick's Landing",
+      "ward": "Lower Tavick's Landing",
+      "level": "lower",
+      "type": "Red light district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Foundation",
+      "quarter": "Tavick's Landing",
+      "ward": "Lower Tavick's Landing",
+      "level": "lower",
+      "type": "Poor residential district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "High Walls",
+      "quarter": "Tavick's Landing",
+      "ward": "Lower Tavick's Landing",
+      "level": "lower",
+      "type": "Refugee district",
+      "wealth": "Squalid"
+    },
+    {
+      "name": "Terminus",
+      "quarter": "Tavick's Landing",
+      "ward": "Lower Tavick's Landing",
+      "level": "lower",
+      "type": "Caravan district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Wroann's Gate",
+      "quarter": "Tavick's Landing",
+      "ward": "Lower Tavick's Landing",
+      "level": "lower",
+      "type": "Caravan district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Grayflood",
+      "ward": "Cliffside",
+      "level": "lower",
+      "type": "Waterfront district",
+      "wealth": "Squalid"
+    },
+    {
+      "name": "Mud Caves",
+      "ward": "Cliffside",
+      "level": "lower",
+      "type": "Slum district",
+      "wealth": "Wretched"
+    },
+    {
+      "name": "Sharn's Welcome",
+      "ward": "Cliffside",
+      "level": "lower",
+      "type": "Red light district",
+      "wealth": "Poor"
+    },
+    {
+      "name": "Ship's Towers",
+      "ward": "Cliffside",
+      "level": "lower",
+      "type": "Waterfront district",
+      "wealth": "Squalid"
+    }
+  ]
+}
