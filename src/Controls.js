@@ -11,8 +11,8 @@ function Controls (props) {
         <LevelControl code='middle' label='Middle City' curr={props.level} setLevel={props.setLevel} />
         <LevelControl code='upper' label='Upper City' curr={props.level} setLevel={props.setLevel} />
       </ul>
-      <FocusedTower tower={props.focusedTower} />
       <ShowArea area={props.area} setArea={props.setArea} />
+      <FocusedTower tower={props.focusedTower} />
     </div>
   )
 }

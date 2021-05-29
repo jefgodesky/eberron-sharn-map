@@ -4,7 +4,8 @@ function FocusedTower (props) {
   const url = `https://dragonbetween.net/wiki/${slug}`
   return (
     <div>
-      <p><strong>Highlighted:</strong> <a href={url} target='_blank' rel='noreferrer'>{props.tower}</a></p>
+      <h2>Show Tower</h2>
+      <p><a href={url} target='_blank' rel='noreferrer'>{props.tower}</a></p>
     </div>
   )
 }
